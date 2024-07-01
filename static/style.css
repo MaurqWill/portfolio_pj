@@ -1,0 +1,173 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff; /* Change text color to white */
+    background-color: #000; /* Change background color to black */
+}
+
+/* Header */
+header {
+    background-color: #ffd700; /* Change header background color to gold */
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #000; /* Change nav link color to black */
+    text-decoration: none;
+}
+
+/* Hero section */
+.hero {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 150px;
+    height: 150px;
+}
+
+h1 {
+    color: #ffd700; /* Change h1 color to gold */
+    font-size: 2.5em;
+}
+
+/* Footer */
+footer {
+    background-color: #ffd700; /* Change footer background color to gold */
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* About page */
+.about {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about p {
+    line-height: 1.6;
+    margin-bottom: 1em;
+}
+
+.about strong {
+    display: block;
+    margin-bottom: 0.5em;
+    color: #ffd700; /* Change strong color to gold */
+    font-size: 1.2em;
+}
+
+/* Resume page */
+.resume {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.resume h2 {
+    color: #ffd700; /* Change h2 color to gold */
+    margin-top: 20px;
+}
+
+.resume p {
+    line-height: 1.6;
+    margin-bottom: 1em;
+}
+
+/* Portfolio page */
+.portfolio {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project {
+    border: 1px solid #ffd700; /* Change project border color to gold */
+    padding: 10px;
+    width: calc(33.333% - 20px);
+    box-sizing: border-box;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+.project h3 {
+    margin-top: 0;
+}
+
+.project a {
+    color: #ffd700; /* Change project link color to gold */
+    text-decoration: none;
+}
+
+/* Contact page */
+.contact {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ffd700; /* Change input border color to gold */
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #000; /* Change button background color to black */
+    color: #ffd700; /* Change button text color to gold */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #222; /* Darken button background color on hover */
+}
+
+.social-link {
+    margin-right: 10px;
+    color: #ffd700; /* Change social link color to gold */
+    text-decoration: none;
+}
+
+.social-link:hover {
+    text-decoration: underline;
+}
